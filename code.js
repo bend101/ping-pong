@@ -12,10 +12,7 @@ function Ball()
 	this.element.style.position="absolute";
 	document.body.appendChild(this.element);
 
-
 	this.onTimer=function(){
-
-
 		this.x = this.x + this.speedx;
 		this.y = this.y + this.speedy;
 		if (this.x > document.body.clientWidth)
