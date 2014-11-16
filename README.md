@@ -1,5 +1,7 @@
 ping-pong
 =========
+![Ping-pong screenshot](screenshot.png)
+
 This was my first javascript program. I started out with a simple div, the ball, and made it move around the screen using a timer (setInterval) and absolute positioning. Next I made it bounce off the edges by simply reversing the x or y speed.
 
 The bat was added as another absolutely positioned div, to move the bat I added a keyboard listener (addEventListener) for up/down arrow keys, these simply change the bats top position.
